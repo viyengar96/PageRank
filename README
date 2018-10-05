@@ -1,0 +1,22 @@
+Varun Iyengar
+
+PageRank and Link Analysis
+
+To Execute:
+
+    python3 pageRank.py <file_name> [dataset_type]
+
+Notes:
+
+    dataset_type: SMALL, SNAP
+    If no dataset type is provided, small dataset is assumed
+    All datasets are treated as directed graphs
+
+Packages Imported:
+
+sys.argv, sys.getsizeof
+re
+copy
+time
+operator
+math
